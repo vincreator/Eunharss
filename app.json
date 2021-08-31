@@ -1,0 +1,59 @@
+{
+    "name": "Eunha Rss",
+    "description": "Rss bot made by python",
+    "logo": "https://i.imgur.com/M1RPKHo.png",
+    "keywords": [
+      "bot",
+      "rss",
+      "python"
+    ],
+    "repository": "https://github.com/vincreator/Eunharss",
+    "website": "",
+    "success_url": "https://github.com/vincreator/eunha/master/README.md",
+    "stack": "container",
+    "env": {
+      "ENV": {
+        "description": "Setting this to ANYTHING will enable Webhooks when in env mode",
+        "value": "ANYTHING"
+      },
+      "API_ID": {
+        "description": "This is to authenticate to your Telegram account for downloading Telegram files. You can get this from https://my.telegram.org.",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "This is to authenticate to your Telegram account for downloading Telegram files. You can get this from https://my.telegram.org.",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "The telegram bot token that you get from @BotFather.",
+        "required": true
+      },
+      "FEED_URLS": {
+        "description": "List of URLs of RSS Feed, sperated by | vertical bar.",
+        "required":true
+      },
+      "LOG_CHANNEL": {
+        "description": "ID of the Telegram Chat where messages are to be posted.",
+        "required": true
+      },
+      "INTERVAL": {
+        "description": "Set to 'True' if GDRIVE_FOLDER_ID is from a Team Drive else False or Leave it empty.",
+        "required": false
+      },
+      "MAX_INSTANCES": {
+        "description": "Whether to use Service Accounts or not. For this to work see 'Using Service Accounts' in repo.",
+        "required": false
+      }
+    },
+    "addons": [
+      {
+        "plan": "heroku-postgresql"
+      }
+    ],
+    "formation": {
+            "worker": {
+                "quantity": 1,
+                "size": "free"
+            }
+      }
+}
