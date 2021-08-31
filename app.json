@@ -48,20 +48,12 @@
         "required": false
       }
     },
-    "addons": [
-      {
-        "plan": "heroku-postgresql"
-      }
-    ],
-    "buildpacks": [
+  "addons": [
     {
-      "url": "https://heroku/python"
-    }
-    ],
-    "formation": {
-            "worker": {
-                "quantity": 1,
-                "size": "free"
-            }
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "9.5"
       }
+    }
+  ]
 }
