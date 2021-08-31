@@ -18,7 +18,6 @@
       },
       "API_ID": {
         "description": "This is to authenticate to your Telegram account for downloading Telegram files. You can get this from https://my.telegram.org.",
-        "value": ""
         "required": true
       },
       "API_HASH": {
