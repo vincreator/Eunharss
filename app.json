@@ -9,7 +9,7 @@
     ],
     "repository": "https://github.com/vincreator/Eunharss",
     "website": "",
-    "success_url": "https://github.com/vincreator/eunha/master/README.md",
+    "success_url": "https://github.com/vincreator/Eunharss/master/README.md",
     "stack": "container",
     "env": {
       "ENV": {
