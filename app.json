@@ -53,6 +53,12 @@
         "plan": "heroku-postgresql"
       }
     ],
+    "buildpacks": [
+    {
+      "url": "https://heroku/python"
+    }
+  ],
+    ],
     "formation": {
             "worker": {
                 "quantity": 1,
