@@ -18,33 +18,37 @@
       },
       "API_ID": {
         "description": "This is to authenticate to your Telegram account for downloading Telegram files. You can get this from https://my.telegram.org.",
+        "value": ""
         "required": true
       },
       "API_HASH": {
         "description": "This is to authenticate to your Telegram account for downloading Telegram files. You can get this from https://my.telegram.org.",
+        "value": ""
         "required": true
       },
       "BOT_TOKEN": {
         "description": "The telegram bot token that you get from @BotFather.",
+        "value": ""
         "required": true
       },
       "FEED_URLS": {
         "description": "List of URLs of RSS Feed, sperated by | vertical bar.",
+        "value": ""
         "required":true
       },
       "LOG_CHANNEL": {
         "description": "ID of the Telegram Chat where messages are to be posted.",
-        "velue": "-100xxxxx",
+        "value": "-100xxxxx",
         "required": true
       },
       "INTERVAL": {
         "description": "Set by sec or Leave it by default.",
-        "velue": "10",
+        "value": "10",
         "required": false
       },
       "MAX_INSTANCES": {
         "description": "Set by limit or Leave it by default.",
-        "velue": "3",
+        "value": "3",
         "required": false
       }
     },
