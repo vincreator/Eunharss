@@ -34,14 +34,17 @@
       },
       "LOG_CHANNEL": {
         "description": "ID of the Telegram Chat where messages are to be posted.",
+        "velue": "-100xxxxx",
         "required": true
       },
       "INTERVAL": {
-        "description": "Set to 'True' if GDRIVE_FOLDER_ID is from a Team Drive else False or Leave it empty.",
+        "description": "Set by sec or Leave it by default.",
+        "velue": "10",
         "required": false
       },
       "MAX_INSTANCES": {
-        "description": "Whether to use Service Accounts or not. For this to work see 'Using Service Accounts' in repo.",
+        "description": "Set by limit or Leave it by default.",
+        "velue": "3",
         "required": false
       }
     },
